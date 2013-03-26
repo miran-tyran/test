@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.songdirectory"
+	    xmlns:gap	= "http://phonegap.com/ns/1.0"
+        id        = "cz.miran-tyran.songbook"
         versionCode="10"
-        version   = "1.1.0">
+        version   = "1.0">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>song Directory</name>
+    <name>Song Book</name>
 
     <description>
-        A simple song directory application
+        A simple song book application - POC
     </description>
 
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author email="mirek.kos@gmail.com">
+        Mirek 'Miran' Kos
     </author>
 
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
+
+	<icon src="folder-blue-music-icon.png" gap:role="default" />
+    <gap:splash src="folder-blue-music-icon.png" />
+
+	<!--<feature name="http://api.phonegap.com/1.0/geolocation"/>-->
+	<!--<feature name="http://api.phonegap.com/1.0/network"/>-->
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
 </widget>
