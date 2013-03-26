@@ -1,6 +1,6 @@
 # PhoneGap Workshop #
 
-In this tutorial, you create a fully functional employee directory application with PhoneGap. You will learn:
+In this tutorial, you create a fully functional song directory application with PhoneGap. You will learn:
 
 - How to use different local data storage strategies.
 - How to use several PhoneGap APIs such as Geolocation, Contacts, and Camera.
