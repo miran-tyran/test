@@ -65,7 +65,7 @@ var WebSqlStore = function(successCallback, errorCallback) {
                     "FROM song e " +
                     "WHERE e.title LIKE ? " +
                     "OR e.author LIKE ? " +
-                    "ORDER BY e.title, e.author";
+                    "ORDER BY e.author, e.title";
 
                 tx.executeSql(sql, ['%' + searchKey + '%', '%' + searchKey + '%'], function(tx, results) {
                     var len = results.rows.length,

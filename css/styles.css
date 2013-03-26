@@ -209,6 +209,7 @@ h2 {
     -webkit-column-count:2; /* Safari and Chrome */
     column-count:2;
     margin:15px;
+    font-size:25px;
 /*
     float:left;
     margin:10px;
